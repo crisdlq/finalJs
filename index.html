@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/nuevoRepo/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   
+    <title>DCA Crypto Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            
+            <p id="titulo1" >Calculadora Crypto DCA</p>
+
+            <form role="form" onsubmit="login(event)">
+                
+                <input type="text" placeholder="Ingrese su Email" id="email">
+
+
+
+                <input type="password" placeholder="Ingrese su Password" id="password" >
+
+                <button onclick="submit" id="ingresar" >Ingresar</button>
+
+                <input type="button" id="btnAlert" value="Registrarse">
+
+               
+
+
+            </form>
+          </nav>      
+        <main>
+            
+            <p id="mainp">
+                Bienvenido a tu Crypto Calculadora. La funcion de esta aplicacion es comenzar a hacer DCA (Dolar Cost Average - Costo promedio sobre dolares).Es una estrategia de inversión que pretende reducir el impacto de la volatilidad al realizar una inversión puntual de una cantidad elevada de dinero en un activo financiero, en el caso de nuestra plataforma esto seria en Bitcoin. 
+                
+                Si ya eres usuario por favor ingrese su usuario y contraseña, de lo contrario por favor registrarse y hacer click en registrarse. 
+                <!-- El ingreso de usuario y contraseña se vera por consola y en el local storage, esto es solo una simulacion. -->
+
+                Ingrese su Nombre, sueldo, porcentaje que desea destinar a Crypto y luego presiona "Calcular total a Destinar". Además podras chequear los simbolos de las diferentes cryptos para agilizar tu busqueda. Los precios se acceden mediante el link del margen superior.
+
+             </p>
+
+         </main>
+        <form class="formCaja" id="formCaja">
+
+            <p id="busquedaNombre"> Ingrese Nombre de Crypto debajo. (Ej: Bitcoin, Ethereum, Cardano)</p>
+            <input type="text"  placeholder="Buscar por Nombre " id="busquedaId">
+            <button>Buscar Simbolo</button>
+
+            <div class="caja"></div>
+              
+        </form>
+
+            
+        <div id="content1">
+            <input type="text" placeholder="Ingrese Su Nombre" id="nombre">
+            <button id="enviar">Ingresar</button>
+
+    
+        </div>
+        <div id="content2">
+       
+        
+       
+      
+        
+        </div>
+        <div id="content3">
+            
+        </div>
+
+         <div id="content4">
+            <input type="text" placeholder="Ingrese su sueldo " id="sueldo">
+            <button id="enviar1">Ingresar</button>
+       
+        </div>
+        
+        <div id="content5">
+            
+       
+        </div>
+
+        <div id="content6">
+            
+            <button id="calcular">Calcular total  a destinar</button>
+       
+        </div>
+        <div id="content7">
+            <input type="text" placeholder="Ingrese porcentaje DCA" id="dca">
+            <button id="enviar2">Ingresar</button>
+       
+       
+        </div>
+        <div id="content8">
+
+     
+            
+       
+        </div>
+
+        <div id="content9">
+
+          
+            
+       
+        </div>
+            
+       
+        </div>
+        <footer id="footer">
+           
+           <p id="foot">Contacto</p> 
+
+
+        </footer>
+
+
+    </div>
+    
+
+
+  
+    
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11">
+
+    </script>
+    <script src="/nuevoRepo/js/main.js">
+
+
+    </script>
+
+
+
+
+</script>
+    
+</body>
+</html>
